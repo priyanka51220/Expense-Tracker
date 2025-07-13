@@ -19,7 +19,6 @@ public class ExpenseController {
 
     private final ExpenseService expenseService;
 
-//i am a hacker
 
     @PostMapping
     public ResponseEntity<?> postExpense(@RequestBody ExpenseDTO dto){
